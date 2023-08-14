@@ -12,6 +12,7 @@ cortex-m = "^0.6.3"      # Access to the generic ARM peripherals
 cortex-m-rt = "^0.6.12"  # Startup code for the ARM Core
 embedded-hal = "^0.2.4"  # Access to generic embedded functions (`set_high`)
 panic-halt = "^0.2.0"    # Panic handler
+panic-semihosting = "0.6.0"
 
 # Access the SMT32L152TB6 HAL
 [dependencies.stm32l1xx-hal]
